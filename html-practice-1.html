@@ -8,7 +8,7 @@
 <body>
     <h1>My first web page</h1>
     <h2>What this is</h2>
-    <p>A simple page put together using HTML. <em>I said a simple page put together using HTML.</em>A simple page put together using HTML. The rest of the text is a mere repeat of previous sentence so it is omitted.</p>
+    <p>A simple page put together using HTML. <em>I said a simple page put together using HTML. </em>A simple page put together using HTML. The rest of the text is a mere repeat of previous sentence so it is omitted.</p>
 
     <h2>Why this is</h2>
     <ul>
@@ -42,26 +42,26 @@
     <!--Table was shortened to two (2) rows instead of four (4).-->
 
     <h3>Some random form</h3>
-    <strong>Note: </strong>It looks the part, but won't do a damned thing.<br>
+    <p><strong>Note: </strong>It looks the part, but won't do a damned thing.</p>
+
+    <form action="somescript.php" method="post">
     
-    Name:<br>
-    <form>
-        <input type="text" name="name" placeholder="Your name">
-    </form>
+    <p>Name:</p>
+    <p><input type="text" name="name" placeholder="Your name"></p>
     
-    Comments:<br>
-    <form>
-        <textarea name="comments" rows="10" cols="20">Your comments</textarea>
-    </form>
+    <p>Comments:</p>
+    <p><textarea name="comments" rows="10" cols="20">Your comments</textarea></p>
+   
     
-    Are you:<br>
-    <form>
-        <input type="radio" name="male">Male<br>
-        <input type="radio" name="female">Female<br>
-        <input type="radio" name="hermaphrodite">An hermaphrodite<br>
-        <input type="radio" name="asexual" checked>Asexual<br>
+    <p>Are you:</p>
+    <p><input type="radio" name="male">Male</p>
+    <p><input type="radio" name="female">Female</p>
+    <p><input type="radio" name="hermaphrodite">An hermaphrodite</p>
+    <p><input type="radio" name="asexual" checked>Asexual</p>
+    
+    <p><button type="submit">Submit</button></p>
+    
     </form>
-    <button type="submit">Submit</button>
 
 </body>
 
